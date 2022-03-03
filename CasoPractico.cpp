@@ -1,6 +1,8 @@
+#include <iostream>
 #include <stdio.h>
 #define N 3
-main()
+using namespace std;
+int main()
 {
 int m1[N][N] = {{1, 1, 1}, {2, 2, 2}, {3, 3, 3}};
 int m2[N][N];
@@ -12,4 +14,5 @@ m2[x][y] = 0;
 else
 m2[x][y] = 1;
 printf("%d , %d , %d", m2[0][0], m2[1][1], m2[2][2]);
+return 0;
 }
